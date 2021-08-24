@@ -1,0 +1,159 @@
+.Top {
+  background-color: #AAD8D3;
+  position: relative;
+  line-height: 2.25;
+  padding-bottom: 50px;
+}
+
+.bottom {
+  background-color: #AAD8D3;
+  height: 150px;
+  padding-top: 25px;
+  line-height: 4;
+}
+
+.Astronaut1 {
+  width: 200px;
+  position: fixed;
+  right: 200px;
+  top: 0;
+  transform: rotate(300deg);
+}
+
+.Astronaut2 {
+  width: 200px;
+  position: fixed;
+  left: 100px;
+  bottom: 20px;
+  transform: rotate(30deg);
+}
+
+.Saturn {
+  position: relative;
+  top: 75px;
+}
+
+hr {
+  border-style: solid none none;
+  border-width: 2px;
+  width: 25%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #FAEBE0;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 4.375rem;
+}
+
+h3 {
+  color: #00ADB5;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #00ADB5;
+  display: inline-block;
+  width: 100px;
+}
+
+.DA {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #C1AC95;
+}
+
+.A {
+  position: relative;
+  top: 125px;
+}
+
+.B {
+  color: #00ADB5;
+  font-weight: bold;
+}
+
+.C {
+  text-align: left;
+}
+
+.D {
+  margin: 0;
+  color: white;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 200px;
+  line-height: 1.75;
+}
+
+.contact-me {width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px;
+}
+
+.book {
+  width: 35%;
+  float: left;
+  padding-right: 30px
+}
+
+.game {
+  width: 35%;
+  float: right;
+  padding-left: 30px
+}
+
+.me {
+  width: 35%;
+}
+
+.contact {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 14px;
+  background-color: #00ADB5;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+
+}
+
+.contact:hover {
+  background: #1E62D0;
+  border: solid #AAD8D3 3px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+}
